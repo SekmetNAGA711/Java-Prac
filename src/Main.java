@@ -19,7 +19,7 @@ public class Main {
     }
 
    //*Method 2//
-    public static void Vanilla() {
+    public static void vanilla() {
         System.out.println("berries");
         System.out.println("banana");
         System.out.println("avocado");//when the body of Vanilla method is reached, main gains control again,
@@ -30,6 +30,15 @@ public class Main {
     //few notes - println is a method in the system, it is set up like the main and vanilla methods I've created
     //          - Java is like a recipe, ingredients and the recipe(method(s))
 
+public static void practice() {
+        System.out.println("SHOPPING LIST");
+        System.out.println("\t- Milk");
+        System.out.println("\t\t> Semi-skimmed");
+        System.out.println("\t\t> Medium");
+        System.out.println("\t- Eggs");
+        System.out.println("\t\t> Free-range");
+        System.out.println("\t- Bread");
 
+    }
 
 }

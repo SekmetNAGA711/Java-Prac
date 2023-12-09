@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
 
@@ -19,7 +21,7 @@ public class Main {
     }
 
    //*Method 2//
-    public static void vanilla() {
+    public static void Vanilla() {
         System.out.println("berries");
         System.out.println("banana");
         System.out.println("avocado");//when the body of Vanilla method is reached, main gains control again,
@@ -40,5 +42,8 @@ public static void practice() {
         System.out.println("\t- Bread");
 
     }
+
+    Scanner scanner = new Scanner(System.in);
+
 
 }

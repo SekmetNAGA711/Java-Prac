@@ -1,6 +1,6 @@
-import java.util.Scanner;
+package Unit1_fundamentals;
 
-public class Main {
+public class HelloWord {
 
 
     //*Method 1//
@@ -32,18 +32,6 @@ public class Main {
     //few notes - println is a method in the system, it is set up like the main and vanilla methods I've created
     //          - Java is like a recipe, ingredients and the recipe(method(s))
 
-public static void practice() {
-        System.out.println("SHOPPING LIST");
-        System.out.println("\t- Milk");
-        System.out.println("\t\t> Semi-skimmed");
-        System.out.println("\t\t> Medium");
-        System.out.println("\t- Eggs");
-        System.out.println("\t\t> Free-range");
-        System.out.println("\t- Bread");
-
-    }
-
-    Scanner scanner = new Scanner(System.in);
 
 
 }

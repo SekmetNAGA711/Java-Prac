@@ -11,9 +11,6 @@ public class UserInput1 {
         String input = sc.nextLine();
         System.out.printf("you entered: " , input);
 
-
-
-
     }
 
 

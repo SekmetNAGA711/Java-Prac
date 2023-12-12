@@ -2,7 +2,7 @@ package Unit1_fundamentals;
 
 import java.util.Scanner;
 
-public class UserInput1 {
+public class Test {
 
 
     public static void main(String[] args) {

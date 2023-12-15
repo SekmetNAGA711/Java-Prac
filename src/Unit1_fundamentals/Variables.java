@@ -60,6 +60,23 @@ public class Variables {
         System.out.println("My " + "name " + "is " + name);
 
 
+///Added
+        int x = 9;
+        int y = 16;
+
+        if (x > y) {
+            System.out.println("x is bigger than y");
+        }
+        else if (x < y) {
+            System.out.println("x is smaller than y");
+        }
+        else {
+            System.out.println("x and y are the same");
+        }
+
+
+
+
     }
 
 

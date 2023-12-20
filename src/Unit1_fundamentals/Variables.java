@@ -59,22 +59,17 @@ public class Variables {
         System.out.println("My"+ " " + "name" + " " + "is" + " " + name);
         System.out.println("My " + "name " + "is " + name);
 
+    // Typecasting
+        double food = 2.95;
+        int bar = (int) food;
 
-///Added
-        int x = 9;
-        int y = 16;
+        System.out.println(bar);
 
-        if (x > y) {
-            System.out.println("x is bigger than y");
-        }
-        else if (x < y) {
-            System.out.println("x is smaller than y");
-        }
-        else {
-            System.out.println("x and y are the same");
-        }
+       int juice = 17;
+       int cup = 4;
 
-
+        System.out.println((double)juice / cup ); //order of operation will happen first, correct way
+        System.out.println((double) (juice/ cup)); // order of operation will happen, this will be 4.0 instead of 4.25
 
 
     }

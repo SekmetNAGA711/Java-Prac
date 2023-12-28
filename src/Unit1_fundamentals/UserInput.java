@@ -25,7 +25,7 @@ public class UserInput {
         System.out.println("How old are you?");
          int myAge = scanner.nextInt();
 
-        System.out.println(myAge + " is perfect");
+        System.out.println(myAge + " is a perfect age");
         System.out.println("Your name is " + myName + " and you are " + myAge + " years old.");
 
 
@@ -34,7 +34,7 @@ public class UserInput {
         System.out.println("you are " + myHeight + " meters tall");
 
 
-        System.out.format("I have %.2f cats, %d parrots, and 1 %s ", 7.9, 2, "panther");// format specifier 'd' is for integers, 's' for strings %.2 is round to 2 decimal place 'f' for decimal/float
+        System.out.format("I have %.2f cats, %d parrots, and 1 %s ", 9.9, 2, "panther");// format specifier 'd' is for integers, 's' for strings %.2 is round to 2 decimal place 'f' for decimal/float
 
         double averageMaleHeight = myHeight -1.80;
         double averageFemaleHeight = myHeight - 1.73;

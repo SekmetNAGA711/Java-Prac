@@ -40,10 +40,25 @@ public class UserInput {
         double averageFemaleHeight = myHeight - 1.73;
 
         System.out.println("\n The difference between you height and the average is: ");
-        System.out.format("%.2fm if you are a male ", averageMaleHeight);
+        System.out.format("%.2fm if you are a male \n", averageMaleHeight);
         System.out.format("%.2fm if you are a female ", averageFemaleHeight);
 
 
+
+    }
+
+
+    public static void tokens () {
+        Scanner scanner = new Scanner(System.in);
+
+        scanner.next();
+        scanner.nextInt();
+        scanner.nextDouble();
+        boolean b = scanner.nextBoolean();
+
+        System.out.println("What is your name");
+        String userName = scanner.next();
+        System.out.println(userName + " is your name");
 
 
     }

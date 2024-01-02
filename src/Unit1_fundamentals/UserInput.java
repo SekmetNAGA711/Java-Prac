@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class UserInput {
 
-    public static void main(String[] args) {
-
+    public static void main(String[] args)
+    {
         Scanner scanner = new Scanner(System.in);
 
         String typedinput = scanner.next(); // next method (type something)
@@ -48,7 +48,8 @@ public class UserInput {
     }
 
 
-    public static void tokens () {
+    public static void tokens ()
+    {
         Scanner scanner = new Scanner(System.in);
 
         scanner.next();
@@ -59,7 +60,6 @@ public class UserInput {
         System.out.println("What is your name");
         String userName = scanner.next();
         System.out.println(userName + " is your name");
-
 
     }
 

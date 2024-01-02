@@ -30,8 +30,8 @@ public class UserInput {
 
 
 
-        double averageMaleHeight = myHeight -1.80;
-        double averageFemaleHeight = myHeight - 1.73;
+        double averageMaleHeight = myHeight -1.75;
+        double averageFemaleHeight = myHeight - 1.62;
 
         System.out.println("\n The difference between you height and the average is: ");
         System.out.format("%.2fm if you are a male \n", averageMaleHeight);
@@ -40,7 +40,8 @@ public class UserInput {
 
         System.out.println("\nWant to know about me?");
         String info = scanner.next();
-        System.out.format("I have %.2f cats, %d parrots, and 1 %s ", 9.9, 2, "panther");// format specifier 'd' is for integers, 's' for strings %.2 is round to 2 decimal place 'f' for decimal/float
+        System.out.format("I love the summer, I have %d brothers and ", 7);//when using format it uses a format specifier (%d) then put a comma after statement then the input of what you want, in this case 7
+        System.out.format("I have %.2f cats, %d parrots, and 1 %s ", 9.9, 2, "panther");// format specifier 'd' is for integers, 's' for strings, %f by default rounds to 6 decimal places,  %.2 will round to 2 decimal - add 'f' for decimal/float
 
 
     }
@@ -50,10 +51,11 @@ public class UserInput {
     {
         Scanner scanner = new Scanner(System.in);
 
-        scanner.next();
-        scanner.nextInt();
-        scanner.nextDouble();
-        boolean token = scanner.nextBoolean();
+        scanner.next();// each method scans single tokens, a token is an individual number or word or a combination of characters
+        scanner.nextInt();// each method scans single tokens
+        scanner.nextDouble();// each method scans single tokens
+        boolean token = scanner.nextBoolean();// each method scans single tokens
+        //Example: the sky is blue - consist of 4 tokens
 
         System.out.println("What is your name");
         String userName = scanner.next();

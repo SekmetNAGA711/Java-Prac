@@ -54,7 +54,7 @@ public class UserInput {
         scanner.next();
         scanner.nextInt();
         scanner.nextDouble();
-        boolean b = scanner.nextBoolean();
+        boolean token = scanner.nextBoolean();
 
         System.out.println("What is your name");
         String userName = scanner.next();

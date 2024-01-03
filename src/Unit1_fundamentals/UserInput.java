@@ -47,21 +47,7 @@ public class UserInput {
     }
 
 
-    public static void tokens ()
-    {
-        Scanner scanner = new Scanner(System.in);
 
-        scanner.next();// each method scans single tokens, a token is an individual number or word or a combination of characters
-        scanner.nextInt();// each method scans single tokens
-        scanner.nextDouble();// each method scans single tokens
-        boolean token = scanner.nextBoolean();// each method scans single tokens
-        //Example: the sky is blue - consist of 4 tokens
-
-        System.out.println("What is your name");
-        String userName = scanner.next();
-        System.out.println(userName + " is your name");
-
-    }
 
 
 

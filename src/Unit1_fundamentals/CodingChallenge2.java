@@ -34,7 +34,8 @@ public class CodingChallenge2 {
         System.out.println("How many people will be eating with you?");
         int groupNumber = scanner.nextInt();
 
-        System.out.println("If the bill is split among " + groupNumber + " people, each person will pay $" + costForDinner / groupNumber );
+//        System.out.println("If the bill is split among " + groupNumber + " people, each person will pay $" + (costForDinner / groupNumber));
+        System.out.format("If the bill is split among " + groupNumber + " people, each person will pay $ %.2f",  costForDinner / groupNumber);
 
 
     }

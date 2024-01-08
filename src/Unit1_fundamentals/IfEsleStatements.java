@@ -20,7 +20,7 @@ public class IfEsleStatements {
         int height = scanner.nextInt();
 
 
-        if(height < 130) {
+        if(height < 140) {
 
             System.out.println("Sorry you are below the height requirement");
         }

@@ -29,7 +29,7 @@ public class IfEsleStatements {
         }
         else {
 
-            System.out.println("Get ready for a great ride!");
+            System.out.println("Get ready for a great ride, hope you enjoy it!");
         }
 
 

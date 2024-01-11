@@ -14,7 +14,7 @@ public class IfEsleStatements {
          System.out.println("this is true");
      }
 
-        System.out.println("Welcome to this super fast rollercoaster!");
+        System.out.println("Welcome to this super fast rollercoaster the highest coaster in the world!");
         System.out.print("please enter you height in centimeters:");
 
         int height = scanner.nextInt();

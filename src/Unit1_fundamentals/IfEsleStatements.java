@@ -15,7 +15,7 @@ public class IfEsleStatements {
      }
 
         System.out.println("Welcome to this super fast rollercoaster the highest coaster in the world!");
-        System.out.print("please enter you height in centimeters:");
+        System.out.print("please enter you height in centimeters to get started:");
 
         int height = scanner.nextInt();
 

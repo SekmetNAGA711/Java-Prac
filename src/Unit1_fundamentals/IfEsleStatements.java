@@ -24,18 +24,14 @@ public class IfEsleStatements {
 
             System.out.println("Sorry you are below the height requirement");
         }
-        else if (height > 210) {
+        else if (height > 210 || height == 210) {
             System.out.println("sorry you are above the height requirement");
         }
+
         else {
 
             System.out.println("Get ready for a great ride, hope you enjoy it!");
         }
-
-
-
-
-
 
     }
 

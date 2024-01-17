@@ -52,13 +52,27 @@ public class IfEsleStatements {
 
         String vipPassReply = scanner.next();
 
+        if (age >= 18) {//nested if statement
+            if (vipPassReply.equals("yes") && age >= 70) {
+                System.out.println("Thanks, go on in.");
+            } else {
+                System.out.println("Sorry, you must have a VIP Pass.");
+            }
+        }
+        else {
+                System.out.println("Sorry, you must be over 18.");
+            }
 
-        if(age >= 18 && vipPassReply.equals("yes") || age >= 70) {
-            System.out.println("thanks, go on in");
+
         }
-        else{
-            System.out.println("sorry, you can not pass.");
-        }
+
+
+//        if((age >= 18 && vipPassReply.equals("yes")) || age >= 70) { // can put brackets around age to make it easier to read
+//            System.out.println("thanks, go on in");
+//        }
+//        else{
+//            System.out.println("sorry, you can not pass.");
+//        }
 
     }
 

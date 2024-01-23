@@ -33,12 +33,12 @@ public class IfEsleStatements {
             System.out.println("Sorry, you are no can do");
         }
 
-        compareStrings ();
+        compareStrings();
 
 
     }
 
-    public static void compareStrings () {
+    public static void compareStrings() {
 
         System.out.println("pasta".equals("pasta")); //comparing strings
 
@@ -48,11 +48,12 @@ public class IfEsleStatements {
 
         int age = scanner.nextInt();
 
-        System.out.println("Do you have a VIP Pass? yes/no: ");
 
-        String vipPassReply = scanner.next();
 
         if (age >= 18) {//nested if statement
+            System.out.println("Do you have a VIP Pass? yes/no: ");
+
+            String vipPassReply = scanner.next();
             if (vipPassReply.equals("yes") && age >= 70) {
                 System.out.println("Thanks, go on in.");
             } else {
@@ -81,4 +82,3 @@ public class IfEsleStatements {
 
 
 
-}

@@ -12,10 +12,10 @@ public class SwitchStatement {
         int num = scanner.nextInt();
 
         if(num == 1) {
-            System.out.println("You entered one");
+            System.out.println("You entered the number one");
         }
         else if(num ==2){
-            System.out.println("You entered 2");
+            System.out.println("You entered the number 2");
         }
 
     }

@@ -25,7 +25,7 @@ public class CodingChallenge2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("What will you have for dinner ?");
+        System.out.println("What would you like to have for dinner ?");
         String dinner = scanner.nextLine();
 
         System.out.println("how much does the dinner cost?");

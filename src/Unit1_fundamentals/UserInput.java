@@ -9,7 +9,7 @@ public class UserInput {
         Scanner scanner = new Scanner(System.in); //System.in - scan the keyboard/read from the system's input
 
 
-        System.out.println("what is your name?");
+        System.out.println("Please tell me what your name is?");
 
         String myName = scanner.next(); // next method (type something)
         System.out.println(myName + " is a nice name");

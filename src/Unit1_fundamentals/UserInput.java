@@ -17,7 +17,7 @@ public class UserInput {
 
 
 
-        System.out.println("\nHow old are you?");
+        System.out.println("\nHow old are you at this very moment?");
          int myAge = scanner.nextInt();
 
         System.out.println(myAge + " is a perfect age");

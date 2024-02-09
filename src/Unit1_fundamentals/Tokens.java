@@ -9,7 +9,7 @@ public class Tokens {
 
     {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("what is your full name?");
+        System.out.println("what is your full name please?");
         String userFirstName = scanner.next(); // next() method only scans 1 token
         String userLastName = scanner.next(); // next() method only scans 1 token
         System.out.println("Your name is " + userFirstName + " " + userLastName);

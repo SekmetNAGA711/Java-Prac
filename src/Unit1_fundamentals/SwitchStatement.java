@@ -11,12 +11,27 @@ public class SwitchStatement {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
 
-        if(num == 1) {
-            System.out.println("You entered the number one");
+        switch(num){
+            case 1:
+                System.out.println("you entered one");
+                break;
+            case 2:
+                System.out.println("you entered two");
+                break;
+            default:
+                System.out.println("invalid number");
+                break; //break is not needed at the end of a default, but it is ok to put in it for consistancy.
         }
-        else if(num ==2){
-            System.out.println("You entered the number 2");
-        }
+
+//        if(num == 1) {
+//            System.out.println("You entered the number one");
+//        }
+//        else if(num ==2){
+//            System.out.println("You entered the number 2");
+//        }
+//        else {
+//            System.out.println("Invalid number");
+//        }
 
     }
 

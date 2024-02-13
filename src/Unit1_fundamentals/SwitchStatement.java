@@ -18,6 +18,10 @@ public class SwitchStatement {
             case 2:
                 System.out.println("you entered two");
                 break;
+            case 3:
+                System.out.println("you entered three");
+            case 4:
+                System.out.println("you entered four");
             default:
                 System.out.println("invalid number");
                 break; //break is not needed at the end of a default, but it is ok to put in it for consistancy.

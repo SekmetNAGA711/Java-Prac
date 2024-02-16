@@ -4,6 +4,14 @@ public class Loops {
 
     public static void main(String[] args) {
 
+
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Test");
+
+        }
+
+
         int i = 0;  //creating a variables ensures that the condition will be false at some point
 
         while(i < 10) {//The difference between a while loop and an if statement is that if a condition is met the body of program is executed and ends,
@@ -13,6 +21,11 @@ public class Loops {
             i++; // same as i = i+1 or i =+ 1
 
         }
+
+
+
+
+
 
 
     }

@@ -35,15 +35,16 @@ public class Loops {
 
         }
 
-
-
-
-
+        breakAndContinue();
 
 
     }
 
+    public static void breakAndContinue() {
 
+
+
+    }
 
 
 }

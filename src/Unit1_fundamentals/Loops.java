@@ -35,12 +35,32 @@ public class Loops {
 
         }
 
+        System.out.println();
+
         breakAndContinue();
 
 
     }
 
     public static void breakAndContinue() {
+
+           for(int i = 1; i<=5; i++) {
+             if(i==4) {
+                 break;
+             }
+               System.out.println(i);
+
+           }
+
+        System.out.println();
+
+        for(int i = 1; i<=5; i++) {
+            if(i==3) {
+                continue;
+            }
+            System.out.println(i);
+
+        }
 
 
 

@@ -39,6 +39,10 @@ public class Loops {
 
         breakAndContinue();
 
+        System.out.println();
+
+        doWhileLoop();
+
 
     }
 
@@ -62,6 +66,20 @@ public class Loops {
 
         }
 
+
+
+    }
+
+
+    public static void doWhileLoop() {// The do-While loop is similiar to the while loop except the condition is checked last
+        int i = 0;
+
+
+
+        while (i < 5) {
+
+            i++;
+        }
 
 
     }

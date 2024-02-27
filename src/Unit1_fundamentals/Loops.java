@@ -76,7 +76,7 @@ public class Loops {
 
 
 
-        while (i < 5) {
+        while (i < 6) {
 
             i++;
         }

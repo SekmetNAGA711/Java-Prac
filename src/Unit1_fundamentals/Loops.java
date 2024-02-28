@@ -1,5 +1,7 @@
 package Unit1_fundamentals;
 
+import java.util.concurrent.ThreadLocalRandom;
+
 public class Loops {
 
     public static void main(String[] args) {
@@ -74,12 +76,14 @@ public class Loops {
     public static void doWhileLoop() {// The do-While loop is similiar to the while loop except the condition is checked last
         int i = 0;
 
+       do {
+           i++;
+       } while (i < 6);
 
 
-        while (i < 6) {
+        ThreadLocalRandom.current().nextInt();
 
-            i++;
-        }
+
 
 
     }

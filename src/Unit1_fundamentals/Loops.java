@@ -74,14 +74,14 @@ public class Loops {
 
 
     public static void doWhileLoop() {// The do-While loop is similiar to the while loop except the condition is checked last
-        int i = 0;
+//        int i = 0;
+//
+//       do {
+//           i++;
+//       } while (i < 6);
 
-       do {
-           i++;
-       } while (i < 6);
 
-
-        ThreadLocalRandom.current().nextInt();
+        ThreadLocalRandom.current().nextInt(1, 7); // used to generate random numbers, giving range from 1 to 6, the first number is inclusive while the second number is exclusive
 
 
 

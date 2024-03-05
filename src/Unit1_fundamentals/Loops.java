@@ -81,7 +81,7 @@ public class Loops {
 //       } while (i < 6);
 
 
-        ThreadLocalRandom.current().nextInt(1, 7); // used to generate random numbers, like throwing dice giving range from 1 to 6, the first number is inclusive while the second number is exclusive
+        ThreadLocalRandom.current().nextInt(1, 7); // This method is used to generate random numbers, like throwing dice giving range from 1 to 6, the first number is inclusive while the second number is exclusive
 
 
 

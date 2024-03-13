@@ -60,7 +60,7 @@ public class Loops {
 
         System.out.println();
 
-        for(int i = 1; i<=4; i++) {
+        for(int i = 1; i<=6; i++) {
             if(i==3) {
                 continue;
             }

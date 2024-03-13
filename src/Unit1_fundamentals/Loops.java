@@ -18,7 +18,7 @@ public class Loops {
         System.out.println();
 
 
-        for(int i = 500; i >= 480; i--) {
+        for(int i = 500; i >= 488; i--) {
 
             System.out.println(i);
         }

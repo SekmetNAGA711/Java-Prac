@@ -8,7 +8,7 @@ public class Loops {
 
 
 
-        for (int i = 0; i < 24; i++) {//a for loop servers as a more compat version of a while loop, all in one loop. In a for loop the parentheses holds the variable,
+        for (int i = 0; i < 27; i++) {//a for loop servers as a more compat version of a while loop, all in one loop. In a for loop the parentheses holds the variable,
             //the condition and the increment. It will check the condition, run the body and increment in that order same as the while loop only difference is that it is
             // written differently. The while loop holds only the condition in the parentheses
             System.out.println(i);

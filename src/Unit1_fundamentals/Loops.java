@@ -50,7 +50,7 @@ public class Loops {
 
     public static void breakAndContinue() {
 
-           for(int i = 1; i<=8; i++) {
+           for(int i = 1; i<=7; i++) {
              if(i==7) {
                  break;
              }

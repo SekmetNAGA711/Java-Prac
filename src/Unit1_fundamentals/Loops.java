@@ -51,7 +51,7 @@ public class Loops {
     public static void breakAndContinue() {
 
            for(int i = 1; i<=7; i++) {
-             if(i==7) {
+             if(i==9) {
                  break;
              }
                System.out.println(i);

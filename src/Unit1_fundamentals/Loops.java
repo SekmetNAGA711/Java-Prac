@@ -61,7 +61,7 @@ public class Loops {
         System.out.println();
 
         for(int i = 1; i<=8; i++) {
-            if(i==4) {
+            if(i==5) {
                 continue;
             }
             System.out.println(i);
